@@ -1,0 +1,66 @@
+.body{
+    height: 130vh;
+    width: 100%;
+    font-family: arial;
+    background-image: url(https://wallpapercave.com/wp/wp2323007.jpg);
+    background-position: center;
+    background-size: cover              ;
+    
+}
+.navbar{
+    width: 95%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 110px;
+    border-radius: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+      background-color: rgb(82, 234, 103);
+      padding: 10px;
+      border-radius: 10px;
+}
+.asid{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    height: 100vh;
+    margin-left: 0;
+}
+.asid ul{
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0;
+}
+.asid ul li{
+    margin-top: 50px;
+    color:rgb(18, 17, 18);
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+.asid ul li:hover{
+    background-color: blanchedalmond;
+
+}
+.one{
+    margin-top: 2px;
+}
